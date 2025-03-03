@@ -7,6 +7,7 @@ from src.routers import v1_router
 from icecream import ic
 
 
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     ic("I am here!")
